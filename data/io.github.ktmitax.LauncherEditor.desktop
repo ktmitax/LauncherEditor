@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Launcher Editor
+Name[zh_CN]=启动器编辑器
+GenericName=Launcher and icon manager
+GenericName[zh_CN]=启动器与图标管理器
+Comment=Manage desktop entries and application icons
+Comment[zh_CN]=管理桌面应用条目和图标
+Exec=launcher-editor
+Icon=io.github.ktmitax.LauncherEditor
+Terminal=false
+Categories=Utility;
+Keywords=launcher;desktop;icon;application;menu;
+Keywords[zh_CN]=启动器;桌面;图标;应用;菜单;
+StartupNotify=true
+StartupWMClass=launcher-editor

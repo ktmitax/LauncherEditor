@@ -1,0 +1,295 @@
+/* Launcher Editor
+ *
+ * The palette is deliberately inherited from the current libadwaita theme.
+ * The identity comes from structure and the launch-grid mark, not from a
+ * hard-coded colour scheme that would fight the user's desktop.
+ */
+
+.sidebar {
+  background: @sidebar_bg_color;
+  border-right: 1px solid alpha(@borders, 0.62);
+}
+
+.brand {
+  padding: 18px 14px 10px 14px;
+}
+
+.brand-mark {
+  border-radius: 10px;
+}
+
+.brand-title {
+  font-size: 11pt;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.brand-subtitle {
+  font-size: 8pt;
+  opacity: 0.58;
+}
+
+.sidebar-list {
+  background: transparent;
+  padding: 4px 8px;
+}
+
+.sidebar-list row {
+  background: transparent;
+  border-radius: 8px;
+  margin: 1px 0;
+}
+
+.filter-row {
+  padding: 7px 9px;
+  border-radius: 8px;
+}
+
+.sidebar-list row:selected .filter-row {
+  background: alpha(@accent_bg_color, 0.16);
+}
+
+.sidebar-list row:selected .filter-icon,
+.sidebar-list row:selected .filter-label {
+  color: @accent_color;
+}
+
+.filter-icon {
+  opacity: 0.78;
+}
+
+.filter-label {
+  font-size: 9.5pt;
+}
+
+.filter-count {
+  font-size: 8pt;
+  opacity: 0.56;
+  font-feature-settings: "tnum";
+}
+
+.sidebar-footer {
+  padding: 10px 16px 14px 16px;
+  font-size: 7.5pt;
+  opacity: 0.48;
+}
+
+.content-toolbar {
+  padding: 12px 18px 8px 18px;
+}
+
+.page-title {
+  font-size: 18pt;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+
+.page-subtitle {
+  font-size: 9pt;
+  opacity: 0.62;
+}
+
+.list-header {
+  padding: 5px 18px 7px 18px;
+  font-size: 8pt;
+  font-weight: 600;
+  opacity: 0.55;
+}
+
+.app-list {
+  background: transparent;
+}
+
+.app-row {
+  padding: 9px 18px;
+  border-bottom: 1px solid alpha(@borders, 0.42);
+  border-radius: 0;
+}
+
+.app-row:hover {
+  background: alpha(@theme_fg_color, 0.035);
+}
+
+.app-row.hidden-app .app-name,
+.app-row.hidden-app .app-description {
+  opacity: 0.62;
+}
+
+.icon-tile {
+  background: alpha(@theme_fg_color, 0.045);
+  border: 1px solid alpha(@borders, 0.55);
+  border-radius: 11px;
+  padding: 5px;
+}
+
+.app-name {
+  font-size: 10.5pt;
+  font-weight: 700;
+}
+
+.app-description {
+  font-size: 8.6pt;
+  opacity: 0.64;
+}
+
+.badge {
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 7.6pt;
+  font-weight: 650;
+}
+
+.badge-user {
+  background: alpha(@accent_bg_color, 0.15);
+  color: @accent_color;
+}
+
+.badge-system {
+  background: alpha(@theme_fg_color, 0.075);
+  color: alpha(@theme_fg_color, 0.76);
+}
+
+.badge-warning {
+  background: @warning_bg_color;
+  color: @warning_fg_color;
+}
+
+.badge-desktop {
+  background: alpha(@accent_bg_color, 0.08);
+  color: alpha(@accent_color, 0.9);
+}
+
+.switch-column {
+  min-width: 58px;
+}
+
+.switch-caption {
+  font-size: 7.5pt;
+  opacity: 0.52;
+}
+
+.row-menu {
+  min-width: 30px;
+  min-height: 30px;
+  padding: 0;
+}
+
+.empty-illustration {
+  opacity: 0.9;
+}
+
+.empty-title {
+  font-size: 15pt;
+  font-weight: 750;
+}
+
+.empty-body {
+  font-size: 9pt;
+  opacity: 0.65;
+}
+
+.section-heading {
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+.section-hint {
+  font-size: 8.5pt;
+  opacity: 0.6;
+}
+
+.source-view {
+  font-family: "Source Code Pro", "DejaVu Sans Mono", monospace;
+  font-size: 9.5pt;
+  background: @card_bg_color;
+  border: 1px solid alpha(@borders, 0.7);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.source-view text {
+  background: transparent;
+}
+
+.validation-box {
+  background: @warning_bg_color;
+  color: @warning_fg_color;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.validation-box.error {
+  background: @error_bg_color;
+  color: @error_fg_color;
+}
+
+.field-table {
+  background: transparent;
+}
+
+.field-row {
+  padding: 5px 0;
+}
+
+.field-key {
+  min-width: 170px;
+}
+
+.field-key entry,
+.field-value entry {
+  border-radius: 7px;
+}
+
+.icon-grid {
+  padding: 8px;
+}
+
+.icon-grid button {
+  background: transparent;
+  border-radius: 10px;
+  padding: 9px;
+  min-width: 58px;
+  min-height: 58px;
+}
+
+.icon-grid button:hover {
+  background: alpha(@theme_fg_color, 0.06);
+}
+
+.icon-grid button:checked {
+  background: alpha(@accent_bg_color, 0.18);
+  box-shadow: inset 0 0 0 2px @accent_bg_color;
+}
+
+.icon-selection {
+  font-size: 8.5pt;
+  opacity: 0.68;
+}
+
+.library-icon {
+  background: alpha(@theme_fg_color, 0.045);
+  border: 1px solid alpha(@borders, 0.5);
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.library-name {
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+.library-meta {
+  font-size: 8pt;
+  opacity: 0.6;
+}
+
+.import-preview {
+  background: alpha(@theme_fg_color, 0.04);
+  border: 1px dashed alpha(@borders, 0.8);
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.dim {
+  opacity: 0.6;
+}

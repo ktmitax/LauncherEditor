@@ -1,0 +1,867 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Launcher Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Launcher Editor 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 17:14+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/launcher_editor/application.py:36 src/launcher_editor/ui/window.py:65
+#: src/launcher_editor/ui/window.py:77 src/launcher_editor/ui/window.py:143
+#: src/launcher_editor/ui/window.py:605
+msgid "Launcher Editor"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:34
+msgid "Audio & video"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:35
+msgid "Development"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:36
+msgid "Education"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:37
+msgid "Games"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:38
+msgid "Graphics"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:39
+msgid "Network"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:40
+msgid "Office"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:41
+msgid "Science"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:42
+msgid "Settings"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:43 src/launcher_editor/ui/rows.py:157
+#: src/launcher_editor/ui/rows.py:160 src/launcher_editor/ui/rows.py:163
+msgid "System"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:44
+msgid "Utilities"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:102
+msgid "Edit application"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:102 src/launcher_editor/ui/window.py:82
+#: src/launcher_editor/ui/window.py:97 src/launcher_editor/ui/window.py:228
+#: src/launcher_editor/ui/window.py:344
+msgid "New application"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:111 src/launcher_editor/ui/editor.py:479
+#: src/launcher_editor/ui/icon_library.py:50
+#: src/launcher_editor/ui/icon_picker.py:55
+#: src/launcher_editor/ui/widgets.py:164 src/launcher_editor/ui/widgets.py:196
+#: src/launcher_editor/ui/widgets.py:217
+msgid "Cancel"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:120
+msgid "Save"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:132
+msgid "Details"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:133
+msgid "Fields"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:134
+msgid "Source"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:150
+msgid "Identity"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:151
+#: src/launcher_editor/ui/icon_library.py:93
+#: src/launcher_editor/ui/icon_picker.py:257
+msgid "Name"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:152
+msgid "The application name shown in the launcher"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:154
+msgid "Generic name"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:156
+msgid "Comment"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:160 src/launcher_editor/ui/editor.py:175
+msgid "Application ID"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:162
+msgid ""
+"Used as the desktop file name. Letters, numbers, dots, underscores and "
+"hyphens only."
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:168
+msgid "Save location"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:177
+msgid "File"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:178
+msgid "Show"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:190
+msgid "Launch"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:191
+msgid "Command"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:193
+msgid "The command to run, including any arguments or field codes such as %U"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:197 src/launcher_editor/ui/widgets.py:213
+msgid "Choose an executable"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:205
+msgid "Working directory"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:206
+msgid "Optional working directory for the command"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:209
+msgid "Run in a terminal"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:211
+msgid "Startup notification"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:213
+msgid "Let the desktop environment show a startup indicator"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:216
+msgid "D-Bus activation"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:218
+msgid "The application is started through its D-Bus service"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:221
+msgid "Startup WM class"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:223
+msgid "Optional window class hint used to associate windows with this entry"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:228
+msgid "Appearance"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:229
+msgid "Icon"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:232 src/launcher_editor/ui/editor.py:241
+#: src/launcher_editor/ui/widgets.py:216
+msgid "Choose"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:238 src/launcher_editor/ui/editor.py:445
+msgid "Categories"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:247
+msgid "Keywords"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:248
+msgid "Separate keywords with semicolons"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:250
+msgid "MIME types"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:251
+msgid "Separate MIME types with semicolons"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:255
+msgid "Visibility"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:256
+msgid "NoDisplay field"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:259
+msgid ""
+"Visible to the system but hidden from menus, overriding this tool's display "
+"settings."
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:301
+msgid "Fields in [Desktop Entry]"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:305
+msgid ""
+"Edit top-level keys here. Use the source view for actions, translations and "
+"complete control."
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:318
+msgid "Add field"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:339
+msgid "Complete desktop file"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:343
+msgid ""
+"The source view is validated with desktop-file-validate when you save. "
+"Unknown groups and actions are preserved."
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:434
+#: src/launcher_editor/ui/icon_picker.py:372
+msgid "No icon selected"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:449
+msgid ""
+"Pick the categories that match this application. Desktop environments use "
+"them for grouping and search."
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:467
+msgid "Other categories"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:473
+msgid "Separate additional category names with semicolons."
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:482
+msgid "Apply"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:518 src/launcher_editor/ui/editor.py:542
+msgid "No categories"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:621
+msgid "Key"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:625
+msgid "Value"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:630
+msgid "Remove field"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:658
+#, python-brace-format
+msgid "Duplicate field: {key}"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:683
+msgid "The source must contain a [Desktop Entry] group."
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:723
+msgid "Cannot switch view"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:734
+msgid "Cannot save the desktop entry"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:741
+msgid "The desktop entry is not valid"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:754 src/launcher_editor/ui/editor.py:757
+msgid "Could not save the application"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:769
+msgid "Discard changes?"
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:770
+msgid "Your edits have not been saved."
+msgstr ""
+
+#: src/launcher_editor/ui/editor.py:771
+msgid "Discard"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:45
+msgid "Import icon"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:53
+msgid "Import"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:65
+msgid "Add an icon to your library"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:69
+msgid ""
+"Launcher Editor stores the icon in the user hicolor theme so applications "
+"can refer to it by name."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:82
+#: src/launcher_editor/ui/icon_library.py:139
+#: src/launcher_editor/ui/icon_picker.py:246
+#: src/launcher_editor/ui/icon_picker.py:296
+msgid "No image selected"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:87
+#: src/launcher_editor/ui/icon_picker.py:251
+msgid "Choose image"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:89
+#: src/launcher_editor/ui/icon_picker.py:277
+#: src/launcher_editor/ui/icon_picker.py:338
+msgid "Choose an image"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:92
+#: src/launcher_editor/ui/icon_picker.py:256
+msgid "Icon name"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:103
+msgid ""
+"You can delete imported icons here later. Icons that are still used by an "
+"application are protected."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:121
+#: src/launcher_editor/ui/icon_picker.py:287
+msgid "Could not preview the image"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:130
+#: src/launcher_editor/ui/icon_picker.py:271
+msgid "An icon with this name already exists and will be replaced."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:140
+#: src/launcher_editor/ui/icon_picker.py:297
+msgid "Choose an image before importing it."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:147
+msgid "Could not import the icon"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:175
+msgid "Only icons imported by Launcher Editor are listed here."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:182
+msgid "Open the icon folder"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:188
+#: src/launcher_editor/ui/icon_library.py:225
+#: src/launcher_editor/ui/icon_picker.py:77
+msgid "Import image"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:218
+msgid "No custom icons yet"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:221
+msgid ""
+"Import a PNG, JPEG, WebP or SVG image. It will be converted into the sizes "
+"desktop environments expect."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:269
+#, python-brace-format
+msgid "Used by {count} applications"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:271
+msgid "Not used by any application"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:274
+#, python-brace-format
+msgid "Sizes {sizes}. {usage}"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:284
+msgid "Delete icon"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:314
+#, python-brace-format
+msgid "Imported icon {name}"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:323
+msgid "Icon is still in use"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:325
+#, python-brace-format
+msgid "Change the icon of these applications first: {names}"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:331
+#, python-brace-format
+msgid "Delete {name}?"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:333
+msgid ""
+"The icon files will be removed from your user icon theme. Applications are "
+"not affected."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:336
+#: src/launcher_editor/ui/rows.py:215 src/launcher_editor/ui/window.py:543
+msgid "Delete"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:345
+msgid "Could not delete the icon"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_library.py:349
+#, python-brace-format
+msgid "Deleted icon {name}"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:50
+msgid "Choose icon"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:66
+msgid "Use icon"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:76
+msgid "Theme icons"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:78
+msgid "Absolute path"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:124
+msgid "Search installed icons"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:175
+msgid "No matching icons"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:178
+#, python-brace-format
+msgid "{count} icons"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:192
+#, python-brace-format
+msgid "Selected: {name}"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:229
+msgid "Import an image"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:233
+msgid ""
+"The image is converted into square PNG sizes under your user hicolor theme. "
+"SVG files stay scalable."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:304
+#: src/launcher_editor/ui/icon_picker.py:307
+msgid "Could not import the image"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:320
+msgid "Use an absolute path"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:323
+msgid ""
+"This is not recommended. The icon will break if the file is moved, and some "
+"desktop environments cannot read it. Importing the image into the icon theme "
+"is more reliable."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:334
+msgid "Image path"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:335
+msgid "Path"
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:372
+msgid "Pick an icon first."
+msgstr ""
+
+#: src/launcher_editor/ui/icon_picker.py:382
+msgid "Invalid icon path"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:96
+msgid "Show in the application launcher"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:101
+msgid "This file only exists on the desktop"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:105
+msgid "This application declares NoDisplay=true"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:109
+msgid "This hidden override has no application behind it"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:117
+msgid "Show an icon on the desktop"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:121
+msgid "This desktop file is managed in the desktop folder"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:129
+msgid "Application actions"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:150
+msgid "Desktop only"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:153
+msgid "User override"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:155
+msgid "User"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:165 src/launcher_editor/ui/window.py:42
+msgid "Hidden"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:167
+msgid "No display"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:200
+msgid "Edit"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:204
+msgid "Add to launcher"
+msgstr ""
+
+#: src/launcher_editor/ui/rows.py:209
+msgid "Show file location"
+msgstr ""
+
+#: src/launcher_editor/ui/widgets.py:184
+msgid "Images"
+msgstr ""
+
+#: src/launcher_editor/ui/widgets.py:196
+msgid "Open"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:39 src/launcher_editor/ui/window.py:375
+#: src/launcher_editor/ui/window.py:380
+msgid "All applications"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:40 src/launcher_editor/ui/window.py:376
+msgid "User applications"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:41 src/launcher_editor/ui/window.py:377
+msgid "System applications"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:43 src/launcher_editor/ui/window.py:379
+msgid "On the desktop"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:44 src/launcher_editor/ui/window.py:362
+msgid "Custom icons"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:88 src/launcher_editor/ui/window.py:98
+msgid "Refresh"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:95
+msgid "Menu"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:99
+msgid "Open applications folder"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:100
+msgid "Open desktop folder"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:101
+msgid "About Launcher Editor"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:102
+msgid "Quit"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:144
+msgid "Launchers & icons"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:168
+#, python-brace-format
+msgid "Desktop: {path}"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:180
+msgid "Search applications"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:188
+msgid "Application"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:191
+msgid "Launcher"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:195
+msgid "Desktop"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:323
+msgid "No matching applications"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:325
+msgid "Try a different search, or clear the search to see everything."
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:327
+msgid "Clear search"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:330
+msgid "Nothing in this view"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:332
+msgid "There are no applications that match this filter right now."
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:334
+msgid "Show all applications"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:337
+msgid "No applications found"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:340
+msgid "Create a launcher entry, or check that your desktop files are readable."
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:365
+#, python-brace-format
+msgid "{count} icon"
+msgid_plural "{count} icons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/launcher_editor/ui/window.py:378
+msgid "Hidden applications"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:382
+#, python-brace-format
+msgid "{count} application"
+msgid_plural "{count} applications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/launcher_editor/ui/window.py:386
+#, python-brace-format
+msgid "{count} matches for “{query}”"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:449
+msgid "Application created"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:459
+msgid "Application saved"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:466
+msgid "Could not change launcher visibility"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:469
+msgid "Shown in the launcher"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:469
+msgid "Hidden from the launcher"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:480 src/launcher_editor/ui/window.py:510
+msgid "Could not change the desktop icon"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:483 src/launcher_editor/ui/window.py:513
+msgid "Desktop icon created"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:483 src/launcher_editor/ui/window.py:513
+msgid "Desktop icon removed"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:492
+msgid "Replace an existing desktop file?"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:494
+#, python-brace-format
+msgid ""
+"{path} already exists and was not created by Launcher Editor. Replacing it "
+"will overwrite the file."
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:497
+msgid "Replace"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:499
+msgid "Remove a desktop file?"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:501
+#, python-brace-format
+msgid ""
+"{path} was not created by Launcher Editor. Removing it will move the file to "
+"the trash."
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:504
+msgid "Remove"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:527
+msgid "Delete this desktop file?"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:529
+msgid ""
+"The file will be moved to the trash. It is not part of a launcher entry in "
+"your application folder."
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:533
+#, python-brace-format
+msgid "Delete “{name}”?"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:535
+msgid ""
+"The desktop entry will be moved to the trash. This does not uninstall the "
+"application. A desktop icon created by Launcher Editor will also be removed."
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:552 src/launcher_editor/ui/window.py:555
+msgid "Could not delete the application"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:557
+#, python-brace-format
+msgid "Deleted {name}"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:563
+msgid "Could not add the application to the launcher"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:565
+msgid "Added to the launcher"
+msgstr ""
+
+#: src/launcher_editor/ui/window.py:610
+msgid "A focused tool for managing desktop entries and application icons."
+msgstr ""

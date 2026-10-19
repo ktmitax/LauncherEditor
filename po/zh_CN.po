@@ -1,0 +1,888 @@
+# Simplified Chinese translation for Launcher Editor.
+# This file is distributed under the same license as the Launcher Editor package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Launcher Editor 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 17:14+0800\n"
+"PO-Revision-Date: 2026-10-19 16:35+0800\n"
+"Last-Translator: Launcher Editor contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/launcher_editor/application.py:36 src/launcher_editor/ui/window.py:65
+#: src/launcher_editor/ui/window.py:77 src/launcher_editor/ui/window.py:143
+#: src/launcher_editor/ui/window.py:605
+msgid "Launcher Editor"
+msgstr "启动器编辑器"
+
+#: src/launcher_editor/ui/editor.py:34
+msgid "Audio & video"
+msgstr "音频与视频"
+
+#: src/launcher_editor/ui/editor.py:35
+msgid "Development"
+msgstr "开发"
+
+#: src/launcher_editor/ui/editor.py:36
+msgid "Education"
+msgstr "教育"
+
+#: src/launcher_editor/ui/editor.py:37
+msgid "Games"
+msgstr "游戏"
+
+#: src/launcher_editor/ui/editor.py:38
+msgid "Graphics"
+msgstr "图形"
+
+#: src/launcher_editor/ui/editor.py:39
+msgid "Network"
+msgstr "网络"
+
+#: src/launcher_editor/ui/editor.py:40
+msgid "Office"
+msgstr "办公"
+
+#: src/launcher_editor/ui/editor.py:41
+msgid "Science"
+msgstr "科学"
+
+#: src/launcher_editor/ui/editor.py:42
+msgid "Settings"
+msgstr "设置"
+
+#: src/launcher_editor/ui/editor.py:43 src/launcher_editor/ui/rows.py:157
+#: src/launcher_editor/ui/rows.py:160 src/launcher_editor/ui/rows.py:163
+msgid "System"
+msgstr "系统"
+
+#: src/launcher_editor/ui/editor.py:44
+msgid "Utilities"
+msgstr "实用工具"
+
+#: src/launcher_editor/ui/editor.py:102
+msgid "Edit application"
+msgstr "编辑应用"
+
+#: src/launcher_editor/ui/editor.py:102 src/launcher_editor/ui/window.py:82
+#: src/launcher_editor/ui/window.py:97 src/launcher_editor/ui/window.py:228
+#: src/launcher_editor/ui/window.py:344
+msgid "New application"
+msgstr "新建应用"
+
+#: src/launcher_editor/ui/editor.py:111 src/launcher_editor/ui/editor.py:479
+#: src/launcher_editor/ui/icon_library.py:50
+#: src/launcher_editor/ui/icon_picker.py:55
+#: src/launcher_editor/ui/widgets.py:164 src/launcher_editor/ui/widgets.py:196
+#: src/launcher_editor/ui/widgets.py:217
+msgid "Cancel"
+msgstr "取消"
+
+#: src/launcher_editor/ui/editor.py:120
+msgid "Save"
+msgstr "保存"
+
+#: src/launcher_editor/ui/editor.py:132
+msgid "Details"
+msgstr "详情"
+
+#: src/launcher_editor/ui/editor.py:133
+msgid "Fields"
+msgstr "字段"
+
+#: src/launcher_editor/ui/editor.py:134
+msgid "Source"
+msgstr "源文件"
+
+#: src/launcher_editor/ui/editor.py:150
+msgid "Identity"
+msgstr "基本信息"
+
+#: src/launcher_editor/ui/editor.py:151
+#: src/launcher_editor/ui/icon_library.py:93
+#: src/launcher_editor/ui/icon_picker.py:257
+msgid "Name"
+msgstr "名称"
+
+#: src/launcher_editor/ui/editor.py:152
+msgid "The application name shown in the launcher"
+msgstr "启动器中显示的应用名称"
+
+#: src/launcher_editor/ui/editor.py:154
+msgid "Generic name"
+msgstr "通用名称"
+
+#: src/launcher_editor/ui/editor.py:156
+msgid "Comment"
+msgstr "说明"
+
+#: src/launcher_editor/ui/editor.py:160 src/launcher_editor/ui/editor.py:175
+msgid "Application ID"
+msgstr "应用 ID"
+
+#: src/launcher_editor/ui/editor.py:162
+msgid ""
+"Used as the desktop file name. Letters, numbers, dots, underscores and "
+"hyphens only."
+msgstr "用作桌面文件名。仅允许字母、数字、点、下划线和连字符。"
+
+#: src/launcher_editor/ui/editor.py:168
+msgid "Save location"
+msgstr "保存位置"
+
+#: src/launcher_editor/ui/editor.py:177
+msgid "File"
+msgstr "文件"
+
+#: src/launcher_editor/ui/editor.py:178
+msgid "Show"
+msgstr "显示"
+
+#: src/launcher_editor/ui/editor.py:190
+msgid "Launch"
+msgstr "启动"
+
+#: src/launcher_editor/ui/editor.py:191
+msgid "Command"
+msgstr "命令"
+
+#: src/launcher_editor/ui/editor.py:193
+msgid "The command to run, including any arguments or field codes such as %U"
+msgstr "要运行的命令，可包含参数或 %U 等字段代码"
+
+#: src/launcher_editor/ui/editor.py:197 src/launcher_editor/ui/widgets.py:213
+msgid "Choose an executable"
+msgstr "选择可执行文件"
+
+#: src/launcher_editor/ui/editor.py:205
+msgid "Working directory"
+msgstr "工作目录"
+
+#: src/launcher_editor/ui/editor.py:206
+msgid "Optional working directory for the command"
+msgstr "命令的可选工作目录"
+
+#: src/launcher_editor/ui/editor.py:209
+msgid "Run in a terminal"
+msgstr "在终端中运行"
+
+#: src/launcher_editor/ui/editor.py:211
+msgid "Startup notification"
+msgstr "启动通知"
+
+#: src/launcher_editor/ui/editor.py:213
+msgid "Let the desktop environment show a startup indicator"
+msgstr "让桌面环境显示启动指示器"
+
+#: src/launcher_editor/ui/editor.py:216
+msgid "D-Bus activation"
+msgstr "D-Bus 激活"
+
+#: src/launcher_editor/ui/editor.py:218
+msgid "The application is started through its D-Bus service"
+msgstr "应用通过其 D-Bus 服务启动"
+
+#: src/launcher_editor/ui/editor.py:221
+msgid "Startup WM class"
+msgstr "启动窗口类"
+
+#: src/launcher_editor/ui/editor.py:223
+msgid "Optional window class hint used to associate windows with this entry"
+msgstr "可选的窗口类提示，用于把窗口与应用条目关联起来"
+
+#: src/launcher_editor/ui/editor.py:228
+msgid "Appearance"
+msgstr "外观"
+
+#: src/launcher_editor/ui/editor.py:229
+msgid "Icon"
+msgstr "图标"
+
+#: src/launcher_editor/ui/editor.py:232 src/launcher_editor/ui/editor.py:241
+#: src/launcher_editor/ui/widgets.py:216
+msgid "Choose"
+msgstr "选择"
+
+#: src/launcher_editor/ui/editor.py:238 src/launcher_editor/ui/editor.py:445
+msgid "Categories"
+msgstr "分类"
+
+#: src/launcher_editor/ui/editor.py:247
+msgid "Keywords"
+msgstr "关键词"
+
+#: src/launcher_editor/ui/editor.py:248
+msgid "Separate keywords with semicolons"
+msgstr "用分号分隔关键词"
+
+#: src/launcher_editor/ui/editor.py:250
+msgid "MIME types"
+msgstr "MIME 类型"
+
+#: src/launcher_editor/ui/editor.py:251
+msgid "Separate MIME types with semicolons"
+msgstr "用分号分隔 MIME 类型"
+
+#: src/launcher_editor/ui/editor.py:255
+msgid "Visibility"
+msgstr "可见性"
+
+#: src/launcher_editor/ui/editor.py:256
+msgid "NoDisplay field"
+msgstr "NoDisplay字段"
+
+#: src/launcher_editor/ui/editor.py:259
+msgid ""
+"Visible to the system but hidden from menus, overriding this tool's display "
+"settings."
+msgstr "对系统可见而在菜单中隐藏，无视本工具的显示设置"
+
+#: src/launcher_editor/ui/editor.py:301
+msgid "Fields in [Desktop Entry]"
+msgstr "[Desktop Entry] 中的字段"
+
+#: src/launcher_editor/ui/editor.py:305
+msgid ""
+"Edit top-level keys here. Use the source view for actions, translations and "
+"complete control."
+msgstr "在这里编辑顶层键。操作、翻译和完整控制请使用源文件视图。"
+
+#: src/launcher_editor/ui/editor.py:318
+msgid "Add field"
+msgstr "添加字段"
+
+#: src/launcher_editor/ui/editor.py:339
+msgid "Complete desktop file"
+msgstr "完整的桌面文件"
+
+#: src/launcher_editor/ui/editor.py:343
+msgid ""
+"The source view is validated with desktop-file-validate when you save. "
+"Unknown groups and actions are preserved."
+msgstr "保存时会用 desktop-file-validate 校验源文件。未知分组和操作会被保留。"
+
+#: src/launcher_editor/ui/editor.py:434
+#: src/launcher_editor/ui/icon_picker.py:372
+msgid "No icon selected"
+msgstr "未选择图标"
+
+#: src/launcher_editor/ui/editor.py:449
+msgid ""
+"Pick the categories that match this application. Desktop environments use "
+"them for grouping and search."
+msgstr "选择与应用匹配的分类。桌面环境会用它们进行分组和搜索。"
+
+#: src/launcher_editor/ui/editor.py:467
+msgid "Other categories"
+msgstr "其他分类"
+
+#: src/launcher_editor/ui/editor.py:473
+msgid "Separate additional category names with semicolons."
+msgstr "用分号分隔额外的分类名称。"
+
+#: src/launcher_editor/ui/editor.py:482
+msgid "Apply"
+msgstr "应用"
+
+#: src/launcher_editor/ui/editor.py:518 src/launcher_editor/ui/editor.py:542
+msgid "No categories"
+msgstr "无分类"
+
+#: src/launcher_editor/ui/editor.py:621
+msgid "Key"
+msgstr "键"
+
+#: src/launcher_editor/ui/editor.py:625
+msgid "Value"
+msgstr "值"
+
+#: src/launcher_editor/ui/editor.py:630
+msgid "Remove field"
+msgstr "移除字段"
+
+#: src/launcher_editor/ui/editor.py:658
+#, python-brace-format
+msgid "Duplicate field: {key}"
+msgstr "重复字段：{key}"
+
+#: src/launcher_editor/ui/editor.py:683
+msgid "The source must contain a [Desktop Entry] group."
+msgstr "源文件必须包含 [Desktop Entry] 分组。"
+
+#: src/launcher_editor/ui/editor.py:723
+msgid "Cannot switch view"
+msgstr "无法切换视图"
+
+#: src/launcher_editor/ui/editor.py:734
+msgid "Cannot save the desktop entry"
+msgstr "无法保存桌面条目"
+
+#: src/launcher_editor/ui/editor.py:741
+msgid "The desktop entry is not valid"
+msgstr "桌面条目无效"
+
+#: src/launcher_editor/ui/editor.py:754 src/launcher_editor/ui/editor.py:757
+msgid "Could not save the application"
+msgstr "无法保存应用"
+
+#: src/launcher_editor/ui/editor.py:769
+msgid "Discard changes?"
+msgstr "放弃更改？"
+
+#: src/launcher_editor/ui/editor.py:770
+msgid "Your edits have not been saved."
+msgstr "你的修改尚未保存。"
+
+#: src/launcher_editor/ui/editor.py:771
+msgid "Discard"
+msgstr "放弃"
+
+#: src/launcher_editor/ui/icon_library.py:45
+msgid "Import icon"
+msgstr "导入图标"
+
+#: src/launcher_editor/ui/icon_library.py:53
+msgid "Import"
+msgstr "导入"
+
+#: src/launcher_editor/ui/icon_library.py:65
+msgid "Add an icon to your library"
+msgstr "向图标库添加图标"
+
+#: src/launcher_editor/ui/icon_library.py:69
+msgid ""
+"Launcher Editor stores the icon in the user hicolor theme so applications "
+"can refer to it by name."
+msgstr "启动器编辑器会把图标存入用户 hicolor 主题，应用可以通过名称引用它。"
+
+#: src/launcher_editor/ui/icon_library.py:82
+#: src/launcher_editor/ui/icon_library.py:139
+#: src/launcher_editor/ui/icon_picker.py:246
+#: src/launcher_editor/ui/icon_picker.py:296
+msgid "No image selected"
+msgstr "未选择图片"
+
+#: src/launcher_editor/ui/icon_library.py:87
+#: src/launcher_editor/ui/icon_picker.py:251
+msgid "Choose image"
+msgstr "选择图片"
+
+#: src/launcher_editor/ui/icon_library.py:89
+#: src/launcher_editor/ui/icon_picker.py:277
+#: src/launcher_editor/ui/icon_picker.py:338
+msgid "Choose an image"
+msgstr "选择一张图片"
+
+#: src/launcher_editor/ui/icon_library.py:92
+#: src/launcher_editor/ui/icon_picker.py:256
+msgid "Icon name"
+msgstr "图标名称"
+
+#: src/launcher_editor/ui/icon_library.py:103
+msgid ""
+"You can delete imported icons here later. Icons that are still used by an "
+"application are protected."
+msgstr "之后可以在这里删除导入的图标。仍被应用使用的图标会受到保护。"
+
+#: src/launcher_editor/ui/icon_library.py:121
+#: src/launcher_editor/ui/icon_picker.py:287
+msgid "Could not preview the image"
+msgstr "无法预览图片"
+
+#: src/launcher_editor/ui/icon_library.py:130
+#: src/launcher_editor/ui/icon_picker.py:271
+msgid "An icon with this name already exists and will be replaced."
+msgstr "同名图标已存在，将被替换。"
+
+#: src/launcher_editor/ui/icon_library.py:140
+#: src/launcher_editor/ui/icon_picker.py:297
+msgid "Choose an image before importing it."
+msgstr "导入前请先选择图片。"
+
+#: src/launcher_editor/ui/icon_library.py:147
+msgid "Could not import the icon"
+msgstr "无法导入图标"
+
+#: src/launcher_editor/ui/icon_library.py:175
+msgid "Only icons imported by Launcher Editor are listed here."
+msgstr "这里只列出由启动器编辑器导入的图标。"
+
+#: src/launcher_editor/ui/icon_library.py:182
+msgid "Open the icon folder"
+msgstr "打开图标文件夹"
+
+#: src/launcher_editor/ui/icon_library.py:188
+#: src/launcher_editor/ui/icon_library.py:225
+#: src/launcher_editor/ui/icon_picker.py:77
+msgid "Import image"
+msgstr "导入图片"
+
+#: src/launcher_editor/ui/icon_library.py:218
+msgid "No custom icons yet"
+msgstr "还没有自定义图标"
+
+#: src/launcher_editor/ui/icon_library.py:221
+msgid ""
+"Import a PNG, JPEG, WebP or SVG image. It will be converted into the sizes "
+"desktop environments expect."
+msgstr "导入 PNG、JPEG、WebP 或 SVG 图片，工具会把它转换成桌面环境需要的尺寸。"
+
+#: src/launcher_editor/ui/icon_library.py:269
+#, python-brace-format
+msgid "Used by {count} applications"
+msgstr "已被 {count} 个应用使用"
+
+#: src/launcher_editor/ui/icon_library.py:271
+msgid "Not used by any application"
+msgstr "未被任何应用使用"
+
+#: src/launcher_editor/ui/icon_library.py:274
+#, python-brace-format
+msgid "Sizes {sizes}. {usage}"
+msgstr "尺寸 {sizes}。{usage}"
+
+#: src/launcher_editor/ui/icon_library.py:284
+msgid "Delete icon"
+msgstr "删除图标"
+
+#: src/launcher_editor/ui/icon_library.py:314
+#, python-brace-format
+msgid "Imported icon {name}"
+msgstr "已导入图标 {name}"
+
+#: src/launcher_editor/ui/icon_library.py:323
+msgid "Icon is still in use"
+msgstr "图标仍在使用中"
+
+#: src/launcher_editor/ui/icon_library.py:325
+#, python-brace-format
+msgid "Change the icon of these applications first: {names}"
+msgstr "请先修改这些应用的图标：{names}"
+
+#: src/launcher_editor/ui/icon_library.py:331
+#, python-brace-format
+msgid "Delete {name}?"
+msgstr "删除 {name}？"
+
+#: src/launcher_editor/ui/icon_library.py:333
+msgid ""
+"The icon files will be removed from your user icon theme. Applications are "
+"not affected."
+msgstr "图标文件将从用户图标主题中移除。应用本身不会受到影响。"
+
+#: src/launcher_editor/ui/icon_library.py:336
+#: src/launcher_editor/ui/rows.py:215 src/launcher_editor/ui/window.py:543
+msgid "Delete"
+msgstr "删除"
+
+#: src/launcher_editor/ui/icon_library.py:345
+msgid "Could not delete the icon"
+msgstr "无法删除图标"
+
+#: src/launcher_editor/ui/icon_library.py:349
+#, python-brace-format
+msgid "Deleted icon {name}"
+msgstr "已删除图标 {name}"
+
+#: src/launcher_editor/ui/icon_picker.py:50
+msgid "Choose icon"
+msgstr "选择图标"
+
+#: src/launcher_editor/ui/icon_picker.py:66
+msgid "Use icon"
+msgstr "使用图标"
+
+#: src/launcher_editor/ui/icon_picker.py:76
+msgid "Theme icons"
+msgstr "主题图标"
+
+#: src/launcher_editor/ui/icon_picker.py:78
+msgid "Absolute path"
+msgstr "绝对路径"
+
+#: src/launcher_editor/ui/icon_picker.py:124
+msgid "Search installed icons"
+msgstr "搜索已安装的图标"
+
+#: src/launcher_editor/ui/icon_picker.py:175
+msgid "No matching icons"
+msgstr "没有匹配的图标"
+
+#: src/launcher_editor/ui/icon_picker.py:178
+#, python-brace-format
+msgid "{count} icons"
+msgstr "{count} 个图标"
+
+#: src/launcher_editor/ui/icon_picker.py:192
+#, python-brace-format
+msgid "Selected: {name}"
+msgstr "已选择：{name}"
+
+#: src/launcher_editor/ui/icon_picker.py:229
+msgid "Import an image"
+msgstr "导入图片"
+
+#: src/launcher_editor/ui/icon_picker.py:233
+msgid ""
+"The image is converted into square PNG sizes under your user hicolor theme. "
+"SVG files stay scalable."
+msgstr ""
+"图片会被转换成方形 PNG 尺寸，保存在用户 hicolor 主题中。SVG 会保持矢量。"
+
+#: src/launcher_editor/ui/icon_picker.py:304
+#: src/launcher_editor/ui/icon_picker.py:307
+msgid "Could not import the image"
+msgstr "无法导入图片"
+
+#: src/launcher_editor/ui/icon_picker.py:320
+msgid "Use an absolute path"
+msgstr "使用绝对路径"
+
+#: src/launcher_editor/ui/icon_picker.py:323
+msgid ""
+"This is not recommended. The icon will break if the file is moved, and some "
+"desktop environments cannot read it. Importing the image into the icon theme "
+"is more reliable."
+msgstr ""
+"不建议这样做。文件移动后图标会失效，而且部分桌面环境无法读取。把图片导入图标"
+"主题更可靠。"
+
+#: src/launcher_editor/ui/icon_picker.py:334
+msgid "Image path"
+msgstr "图片路径"
+
+#: src/launcher_editor/ui/icon_picker.py:335
+msgid "Path"
+msgstr "路径"
+
+#: src/launcher_editor/ui/icon_picker.py:372
+msgid "Pick an icon first."
+msgstr "请先选择一个图标。"
+
+#: src/launcher_editor/ui/icon_picker.py:382
+msgid "Invalid icon path"
+msgstr "图标路径无效"
+
+#: src/launcher_editor/ui/rows.py:96
+msgid "Show in the application launcher"
+msgstr "在应用启动器中显示"
+
+#: src/launcher_editor/ui/rows.py:101
+msgid "This file only exists on the desktop"
+msgstr "此文件仅存在于桌面"
+
+#: src/launcher_editor/ui/rows.py:105
+msgid "This application declares NoDisplay=true"
+msgstr "此应用声明了 NoDisplay=true"
+
+#: src/launcher_editor/ui/rows.py:109
+msgid "This hidden override has no application behind it"
+msgstr "这个隐藏覆盖没有对应的应用"
+
+#: src/launcher_editor/ui/rows.py:117
+msgid "Show an icon on the desktop"
+msgstr "在桌面上显示图标"
+
+#: src/launcher_editor/ui/rows.py:121
+msgid "This desktop file is managed in the desktop folder"
+msgstr "此桌面文件在桌面文件夹中管理"
+
+#: src/launcher_editor/ui/rows.py:129
+msgid "Application actions"
+msgstr "应用操作"
+
+#: src/launcher_editor/ui/rows.py:150
+msgid "Desktop only"
+msgstr "仅桌面"
+
+#: src/launcher_editor/ui/rows.py:153
+msgid "User override"
+msgstr "用户覆盖"
+
+#: src/launcher_editor/ui/rows.py:155
+msgid "User"
+msgstr "用户"
+
+#: src/launcher_editor/ui/rows.py:165 src/launcher_editor/ui/window.py:42
+msgid "Hidden"
+msgstr "已隐藏"
+
+#: src/launcher_editor/ui/rows.py:167
+msgid "No display"
+msgstr "不显示"
+
+#: src/launcher_editor/ui/rows.py:200
+msgid "Edit"
+msgstr "编辑"
+
+#: src/launcher_editor/ui/rows.py:204
+msgid "Add to launcher"
+msgstr "添加到启动器"
+
+#: src/launcher_editor/ui/rows.py:209
+msgid "Show file location"
+msgstr "显示文件位置"
+
+#: src/launcher_editor/ui/widgets.py:184
+msgid "Images"
+msgstr "图片"
+
+#: src/launcher_editor/ui/widgets.py:196
+msgid "Open"
+msgstr "打开"
+
+#: src/launcher_editor/ui/window.py:39 src/launcher_editor/ui/window.py:375
+#: src/launcher_editor/ui/window.py:380
+msgid "All applications"
+msgstr "所有应用"
+
+#: src/launcher_editor/ui/window.py:40 src/launcher_editor/ui/window.py:376
+msgid "User applications"
+msgstr "用户应用"
+
+#: src/launcher_editor/ui/window.py:41 src/launcher_editor/ui/window.py:377
+msgid "System applications"
+msgstr "系统应用"
+
+#: src/launcher_editor/ui/window.py:43 src/launcher_editor/ui/window.py:379
+msgid "On the desktop"
+msgstr "桌面图标"
+
+#: src/launcher_editor/ui/window.py:44 src/launcher_editor/ui/window.py:362
+msgid "Custom icons"
+msgstr "自定义图标"
+
+#: src/launcher_editor/ui/window.py:88 src/launcher_editor/ui/window.py:98
+msgid "Refresh"
+msgstr "刷新"
+
+#: src/launcher_editor/ui/window.py:95
+msgid "Menu"
+msgstr "菜单"
+
+#: src/launcher_editor/ui/window.py:99
+msgid "Open applications folder"
+msgstr "打开应用文件夹"
+
+#: src/launcher_editor/ui/window.py:100
+msgid "Open desktop folder"
+msgstr "打开桌面文件夹"
+
+#: src/launcher_editor/ui/window.py:101
+msgid "About Launcher Editor"
+msgstr "关于启动器编辑器"
+
+#: src/launcher_editor/ui/window.py:102
+msgid "Quit"
+msgstr "退出"
+
+#: src/launcher_editor/ui/window.py:144
+msgid "Launchers & icons"
+msgstr "启动器与图标"
+
+#: src/launcher_editor/ui/window.py:168
+#, python-brace-format
+msgid "Desktop: {path}"
+msgstr "桌面：{path}"
+
+#: src/launcher_editor/ui/window.py:180
+msgid "Search applications"
+msgstr "搜索应用"
+
+#: src/launcher_editor/ui/window.py:188
+msgid "Application"
+msgstr "应用"
+
+#: src/launcher_editor/ui/window.py:191
+msgid "Launcher"
+msgstr "启动器"
+
+#: src/launcher_editor/ui/window.py:195
+msgid "Desktop"
+msgstr "桌面"
+
+#: src/launcher_editor/ui/window.py:323
+msgid "No matching applications"
+msgstr "没有匹配的应用"
+
+#: src/launcher_editor/ui/window.py:325
+msgid "Try a different search, or clear the search to see everything."
+msgstr "试试其他搜索词，或清除搜索以查看全部内容。"
+
+#: src/launcher_editor/ui/window.py:327
+msgid "Clear search"
+msgstr "清除搜索"
+
+#: src/launcher_editor/ui/window.py:330
+msgid "Nothing in this view"
+msgstr "此视图为空"
+
+#: src/launcher_editor/ui/window.py:332
+msgid "There are no applications that match this filter right now."
+msgstr "当前没有符合此筛选条件的应用。"
+
+#: src/launcher_editor/ui/window.py:334
+msgid "Show all applications"
+msgstr "显示所有应用"
+
+#: src/launcher_editor/ui/window.py:337
+msgid "No applications found"
+msgstr "未找到应用"
+
+#: src/launcher_editor/ui/window.py:340
+msgid "Create a launcher entry, or check that your desktop files are readable."
+msgstr "创建一个启动器条目，或检查桌面文件是否可读。"
+
+#: src/launcher_editor/ui/window.py:365
+#, python-brace-format
+msgid "{count} icon"
+msgid_plural "{count} icons"
+msgstr[0] "{count} 个图标"
+
+#: src/launcher_editor/ui/window.py:378
+msgid "Hidden applications"
+msgstr "已隐藏的应用"
+
+#: src/launcher_editor/ui/window.py:382
+#, python-brace-format
+msgid "{count} application"
+msgid_plural "{count} applications"
+msgstr[0] "{count} 个应用"
+
+#: src/launcher_editor/ui/window.py:386
+#, python-brace-format
+msgid "{count} matches for “{query}”"
+msgstr "找到 {count} 个匹配“{query}”的结果"
+
+#: src/launcher_editor/ui/window.py:449
+msgid "Application created"
+msgstr "应用已创建"
+
+#: src/launcher_editor/ui/window.py:459
+msgid "Application saved"
+msgstr "应用已保存"
+
+#: src/launcher_editor/ui/window.py:466
+msgid "Could not change launcher visibility"
+msgstr "无法更改启动器可见性"
+
+#: src/launcher_editor/ui/window.py:469
+msgid "Shown in the launcher"
+msgstr "已在启动器中显示"
+
+#: src/launcher_editor/ui/window.py:469
+msgid "Hidden from the launcher"
+msgstr "已从启动器隐藏"
+
+#: src/launcher_editor/ui/window.py:480 src/launcher_editor/ui/window.py:510
+msgid "Could not change the desktop icon"
+msgstr "无法更改桌面图标"
+
+#: src/launcher_editor/ui/window.py:483 src/launcher_editor/ui/window.py:513
+msgid "Desktop icon created"
+msgstr "桌面图标已创建"
+
+#: src/launcher_editor/ui/window.py:483 src/launcher_editor/ui/window.py:513
+msgid "Desktop icon removed"
+msgstr "桌面图标已移除"
+
+#: src/launcher_editor/ui/window.py:492
+msgid "Replace an existing desktop file?"
+msgstr "替换已有的桌面文件？"
+
+#: src/launcher_editor/ui/window.py:494
+#, python-brace-format
+msgid ""
+"{path} already exists and was not created by Launcher Editor. Replacing it "
+"will overwrite the file."
+msgstr "{path} 已存在，且不是由启动器编辑器创建的。替换将覆盖该文件。"
+
+#: src/launcher_editor/ui/window.py:497
+msgid "Replace"
+msgstr "替换"
+
+#: src/launcher_editor/ui/window.py:499
+msgid "Remove a desktop file?"
+msgstr "移除桌面文件？"
+
+#: src/launcher_editor/ui/window.py:501
+#, python-brace-format
+msgid ""
+"{path} was not created by Launcher Editor. Removing it will move the file to "
+"the trash."
+msgstr "{path} 不是由启动器编辑器创建的。移除会把文件放入回收站。"
+
+#: src/launcher_editor/ui/window.py:504
+msgid "Remove"
+msgstr "移除"
+
+#: src/launcher_editor/ui/window.py:527
+msgid "Delete this desktop file?"
+msgstr "删除此桌面文件？"
+
+#: src/launcher_editor/ui/window.py:529
+msgid ""
+"The file will be moved to the trash. It is not part of a launcher entry in "
+"your application folder."
+msgstr "文件将被放入回收站。它不是应用文件夹中的启动器条目。"
+
+#: src/launcher_editor/ui/window.py:533
+#, python-brace-format
+msgid "Delete “{name}”?"
+msgstr "删除“{name}”？"
+
+#: src/launcher_editor/ui/window.py:535
+msgid ""
+"The desktop entry will be moved to the trash. This does not uninstall the "
+"application. A desktop icon created by Launcher Editor will also be removed."
+msgstr ""
+"桌面条目将被放入回收站。这不会卸载应用。由启动器编辑器创建的桌面图标也会被移"
+"除。"
+
+#: src/launcher_editor/ui/window.py:552 src/launcher_editor/ui/window.py:555
+msgid "Could not delete the application"
+msgstr "无法删除应用"
+
+#: src/launcher_editor/ui/window.py:557
+#, python-brace-format
+msgid "Deleted {name}"
+msgstr "已删除 {name}"
+
+#: src/launcher_editor/ui/window.py:563
+msgid "Could not add the application to the launcher"
+msgstr "无法将应用添加到启动器"
+
+#: src/launcher_editor/ui/window.py:565
+msgid "Added to the launcher"
+msgstr "已添加到启动器"
+
+#: src/launcher_editor/ui/window.py:610
+msgid "A focused tool for managing desktop entries and application icons."
+msgstr "一款专注于管理桌面条目和应用图标的工具。"
+
+#~ msgid "Do not show in menus (NoDisplay)"
+#~ msgstr "不在应用菜单中显示（NoDisplay）"
+
+#~ msgid ""
+#~ "The entry stays available for desktop icons and direct launches, but "
+#~ "desktop menus skip it."
+#~ msgstr ""
+#~ "条目仍然保留，可用于桌面图标或直接启动，但应用菜单和启动器会跳过它。"
+
+#~ msgid ""
+#~ "NoDisplay=true is a request from the desktop entry itself. Unlike the "
+#~ "launcher switch, it does not disable the application."
+#~ msgstr ""
+#~ "NoDisplay=true 是桌面条目自身的声明。与启动器开关不同，它不会禁用应用。"
+
+#~ msgid "Hide this entry from menus even when the file is enabled"
+#~ msgstr "即使条目已启用，也从菜单中隐藏"
+
+#~ msgid "Main categories"
+#~ msgstr "主要分类"

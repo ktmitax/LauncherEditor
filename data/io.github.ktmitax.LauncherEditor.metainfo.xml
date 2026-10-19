@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.ktmitax.LauncherEditor</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Launcher Editor</name>
+  <name xml:lang="zh_CN">启动器编辑器</name>
+  <summary>Manage desktop entries and application icons</summary>
+  <summary xml:lang="zh_CN">管理桌面应用条目和图标</summary>
+  <developer id="io.github.ktmitax">
+    <name>ktmitax</name>
+  </developer>
+  <description>
+    <p>
+      Launcher Editor is a focused utility for the desktop files that make up
+      your application launcher.
+    </p>
+    <p>It can:</p>
+    <ul>
+      <li>Create and edit user desktop entries with Freedesktop-compliant fields.</li>
+      <li>Hide or show entries without touching package-managed files.</li>
+      <li>Place application shortcuts on the desktop and remove them again.</li>
+      <li>Import images into a multi-size user icon theme.</li>
+    </ul>
+    <p>
+      System applications are read-only. A small user-directory override is used
+      to hide them, so no root access is required and package upgrades are safe.
+    </p>
+    <p xml:lang="zh_CN">
+      启动器编辑器是一款专注于应用启动器条目的桌面小工具。
+    </p>
+    <p xml:lang="zh_CN">它可以：</p>
+    <ul>
+      <li xml:lang="zh_CN">按照 Freedesktop 规范创建和编辑用户级桌面条目。</li>
+      <li xml:lang="zh_CN">在不改动软件包文件的情况下隐藏或显示应用。</li>
+      <li xml:lang="zh_CN">在桌面上放置或移除应用快捷方式。</li>
+      <li xml:lang="zh_CN">把图片导入为多尺寸的用户图标主题图标。</li>
+    </ul>
+    <p xml:lang="zh_CN">
+      系统应用为只读；隐藏系统应用时只写入一个很小的用户目录覆盖标记，
+      无需 root，也不会被软件包升级覆盖。
+    </p>
+  </description>
+  <url type="homepage">https://github.com/ktmitax/LauncherEditor</url>
+  <launchable type="desktop-id">io.github.ktmitax.LauncherEditor.desktop</launchable>
+  <provides>
+    <binary>launcher-editor</binary>
+  </provides>
+  <categories>
+    <category>Utility</category>
+    <category>Settings</category>
+  </categories>
+  <keywords>
+    <keyword>launcher</keyword>
+    <keyword>desktop</keyword>
+    <keyword>icon</keyword>
+    <keyword>application</keyword>
+    <keyword>menu</keyword>
+  </keywords>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-10-19">
+      <description>
+        <p>Initial release.</p>
+      </description>
+    </release>
+  </releases>
+</component>

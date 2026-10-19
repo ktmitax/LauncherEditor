@@ -1,0 +1,50 @@
+.TH LAUNCHER-EDITOR 1 "October 2026" "Launcher Editor 0.1.0" "User Commands"
+.SH NAME
+launcher-editor \- manage Freedesktop desktop entries and application icons
+.SH SYNOPSIS
+.B launcher-editor
+.SH DESCRIPTION
+.B Launcher Editor
+is a graphical utility for managing the application entries that appear in
+Linux desktop launchers and on the desktop.
+.PP
+It reads desktop entries from the XDG data directories, including Flatpak and
+Snap export directories, and distinguishes user entries from system entries.
+System entries are read-only.  Hiding a system entry writes a small override
+file in the user application directory; the package-managed file is never
+modified.
+.PP
+The application can create and edit user desktop entries, validate them with
+.BR desktop-file-validate (1),
+place executable shortcuts on the desktop, and import images into the user
+hicolor icon theme at several sizes.
+.PP
+All write operations are limited to the user's home directory.  The program
+does not require root privileges and does not access the network.
+.SH FILES
+.TP
+.I ~/.local/share/applications
+User desktop entries and system-entry suppression overrides.
+.TP
+.I ~/.local/share/icons/hicolor
+Custom icons imported by the application.
+.TP
+.I ~/.config/launcher-editor/config.json
+Window and filter preferences.
+.TP
+.I ~/.local/share/launcher-editor/icons.json
+Manifest of icons imported by the application.
+.TP
+.I $XDG_DESKTOP_DIR
+Desktop shortcuts created by the application.  The location is resolved with
+.BR xdg-user-dir (1)
+or the XDG user directories configuration.
+.SH SEE ALSO
+.BR desktop-file-validate (1),
+.BR update-desktop-database (1),
+.BR xdg-user-dir (1)
+.PP
+The Desktop Entry Specification:
+.IR https://specifications.freedesktop.org/desktop-entry-spec/ .
+.SH AUTHOR
+Launcher Editor contributors.
